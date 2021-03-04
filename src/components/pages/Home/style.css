@@ -1,0 +1,77 @@
+/* Style for Index Image */
+
+#index-container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+
+
+#about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: black;
+}
+
+#about-container h3 {
+    font-family: 'Texturina', serif;
+}
+
+#about-container p {
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Sets portrait paddings */
+#portrait-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#email-button {
+    text-align: center;
+}
+
+#email-button a{
+    background-color: #88BDBC;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    #email-button a {
+        width: 90%;
+
+    }
+}
+
+/* Sets portrait size and paddings for Screen below 769 pixels  */
+@media screen and (max-width: 500px) {
+    #email-button a {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+#email-button {
+    text-align: center;
+}
