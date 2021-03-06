@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Portrait from "../../assets/images/bw-portrait.jpg";
 
 function Contact() {
     return (
@@ -9,7 +10,7 @@ function Contact() {
                 <article className="col-12">
                     <div className="row">
                         <section className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <img src="./assets/images/bw-portrait.JPG" alt="Portrait of Manuel" id="portrait-image"></img>
+                            <img src={Portrait} alt="Portrait of Manuel" id="portrait-image"></img>
                         </section>
 
                         <section className="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="about-container">

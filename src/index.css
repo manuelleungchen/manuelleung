@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* General Style Across Portfolio */
+
+/* This code stops the page from moving when clicking on a new link
+by adding the scrollbar on all pages */
+html {
+    overflow-y: scroll; 
+    height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* This hidden the scrollbar without affecting the scrolling */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
+
+/* Set body style */
+body {
+    /* Create a background patterns with CSS */
+    background-color: #E3E2DF;
+    
+    /* Set the font style across the whole body tag */
+    font-size: 20px;
+    /* height: 0%; */
+}
+

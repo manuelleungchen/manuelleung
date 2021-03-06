@@ -18,7 +18,6 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         <Footer />
-
       </div>
     </Router>
   );
