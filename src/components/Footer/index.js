@@ -16,7 +16,7 @@ function Footer() {
                     <span className="far fa-file-pdf"></span></a>
             </section>
             <h6>
-                &copy; 2020 Copyright
+                &copy; 2021 Copyright
             </h6>
         </footer>
     )
