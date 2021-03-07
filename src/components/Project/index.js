@@ -1,19 +1,20 @@
 import React from "react";
 import "./style.css";
 
-function Project() {
+function Project({id, title, image, highlight, description, github, url}) {
+    
     return (
         <section className="row project-section">
         <div className="col-sm-12 col-md-6 col-lg-6 project-info">
-            <h3 className="project-title">YouTwitch</h3>
-            <h4 className="highlight">Node.js/Handlebars/Materialize</h4>
-            <p>Video Sharing platform that combines content from Youtube and Twitch.</p>
+            <h3 className="project-title">{title}</h3>
+            <h4 className="highlight">{highlight}</h4>
+            <p>{description}</p>
             <div class="button-div">
-                <a href="https://enigmatic-stream-39845.herokuapp.com/" className="link-button" rel="noreferrer" target="_blank">Visit Site</a>
-                <a href="https://github.com/manuelleungchen/YouTwitch" className="link-button" rel="noreferrer" target="_blank">Check Repo</a>
+                <a href={url} className="link-button" rel="noreferrer" target="_blank">Visit Site</a>
+                <a href={github} className="link-button" rel="noreferrer" target="_blank">Check Repo</a>
             </div>
         </div>
-        <img src={Youtwitch} alt="Avatar" className="col-sm-12 col-md-6 col-lg-6 project-image"></img>
+        <img src={process.env.PUBLIC_URL + image} alt="Avatar" className="col-sm-12 col-md-6 col-lg-6 project-image"></img>
     </section>
     )
 }

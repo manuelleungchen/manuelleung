@@ -1,24 +1,39 @@
 header nav{
-    background-color: #254E58;
+    background-color: #0f181b;
     font-family: 'Big Shoulders Inline Text', cursive;
 }
 
+#logo {
+    width: 100px;
+}
+
 /* Sets style for the Nav Bar */
-#navbar-header {
-    background-color: #254E58;
-    color: #88BDBC;
+#name {
+    background-color: #0f181b;
+    color: rgb(126, 99, 33);
     font-family: 'Texturina', serif;
     font-size: 35px;
     font-weight: bold;
 }
 
-.nav-item a {
+.nav-link {
     color: #FEFFFF;
 }
 
-/* #active-page {
+.nav-link-active {
     font-size: 25px;
-} */
+}
 
+.nav-link:hover {
+    color: #88BDBC;
+}
+
+
+/* Sets portrait size and paddings for Screen below 769 pixels  */
+@media screen and (max-width: 768px) {
+    #name {
+        display: none;
+    }
+}
 
 

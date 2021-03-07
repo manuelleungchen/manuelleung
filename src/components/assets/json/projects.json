@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "BonAppVoyage",
+    "image":"/images/bonappvoyage.png",
+    "highlight": "JavaScript/Bulma",
+    "description": "Cooking App that obtains a list of food recipes and points of interest of random cities.",
+    "github": "https://github.com/UofTbootcampgroupproject/bonAPPvoyage",
+    "url": "https://uoftbootcampgroupproject.github.io/bonAPPvoyage/"
+  },
+  {
+    "id": 2,
+    "title": "Weather Dashboard",
+    "image":"/images/weather-dashboard.png",
+    "highlight": "JavaScript/JQuery",
+    "description": "Weather app that provides current and future weather forecasts in cities.",
+    "github": "https://github.com/manuelleungchen/Weather-Dashboard",
+    "url": "https://manuelleungchen.github.io/Weather-Dashboard/"
+  },
+  {
+    "id": 3,
+    "title": "Password Generator",
+    "image":"/images/password-generator.png",
+    "highlight": "JavaScript/BootStrap",
+    "description": "Web App that generates a random password based on user criteria.",
+    "github": "https://github.com/manuelleungchen/Password-Generator",
+    "url": "https://manuelleungchen.github.io/Password-Generator/"
+  },
+  {
+    "id": 4,
+    "title": "YouTwitch",
+    "image":"/images/youtwitch.png",
+    "highlight": "Node.js/Handlebars/Materialize",
+    "description": "Video Sharing platform that combines content from Youtube and Twitch.",
+    "github": "https://github.com/manuelleungchen/YouTwitch",
+    "url": "https://enigmatic-stream-39845.herokuapp.com/"
+  },
+  {
+    "id": 5,
+    "title": "Burger Logger",
+    "image":"/images/burger-logger.png",
+    "highlight": "Heroku/Node.js",
+    "description": "Burger Logger Web Application that keeps track of Burgers.",
+    "github": "https://github.com/manuelleungchen/Burger-Logger",
+    "url": "https://stark-falls-45223.herokuapp.com/"
+  },
+  {
+    "id": 6,
+    "title": "Employee Directory",
+    "image":"/images/employee-directory.png",
+    "highlight": "React/JavaScript",
+    "description": "Employee Directory Application built with React that generates a list of random users with Random User API and allow sorting and searching users on the list.",
+    "github": "https://github.com/manuelleungchen/Employee-Directory",
+    "url": "https://manuelleungchen.github.io/Employee-Directory/"
+  },
+  {
+    "id": 7,
+    "title": "Budget Tracker",
+    "image":"/images/budget-tracker.png",
+    "highlight": "MongoDB/Express/Heroku",
+    "description": "Budget Tracker Application that allows tracking of budget with/without a network connection. It illustrates financial progress in a time frame.",
+    "github": "https://github.com/manuelleungchen/Budget-Tracker",
+    "url": "https://limitless-ridge-72652.herokuapp.com/"
+  },
+  {
+    "id": 8,
+    "title": "Workout Tracker",
+    "image":"/images/workout-tracker.png",
+    "highlight": "MongoDB/Express/Heroku",
+    "description": "Workout Tracker Application that allows tracking of daily workouts and presents a dashboard with weekly progress charts.",
+    "github": "https://github.com/manuelleungchen/Workout-Tracker",
+    "url": "https://desolate-headland-50731.herokuapp.com/?id=6026c6e4cdc8800015baee01"
+  }
+]
