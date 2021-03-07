@@ -1,31 +1,24 @@
 header nav{
-    background-color: #A4B3B6;
+    background-color: #254E58;
     font-family: 'Big Shoulders Inline Text', cursive;
 }
 
 /* Sets style for the Nav Bar */
 #navbar-header {
-    background-color: #A4B3B6;
-    color: #474B4F;
+    background-color: #254E58;
+    color: #88BDBC;
     font-family: 'Texturina', serif;
     font-size: 35px;
     font-weight: bold;
+}
 
-    /* position: absolute;
-    top: -70px;
-    left: 20px; */
+.nav-item a {
+    color: #FEFFFF;
 }
 
 /* #active-page {
     font-size: 25px;
 } */
 
-/* Makes Navbar stick to top */
-#sticky-navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1;
-}
+
 

@@ -4,7 +4,7 @@ import "./style.css";
 function Navbar() {
     return (
         <header>
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav className="navbar navbar-expand-md">
                 <div className="navbar-header">
                     <a href="./">
                         <h1 className="navbar-brand" id="navbar-header">Manuel Leung</h1>

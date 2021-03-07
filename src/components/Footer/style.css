@@ -1,13 +1,7 @@
 
 /* Sets style for footer and makes it stick to bottom */
 footer {
-    /* position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0; */
-    /* background-color: #A4B3B6; */
-    background-color: #E3E2DF;
-    /* border-top: solid 2px #88BDBC; */
+    background-color: #17252A;
     text-align: center;
 }
 
@@ -15,15 +9,14 @@ footer span {
     margin-top: 10px;
     padding: 5px;
     font-size: 35px;
-    color: #88BDBC;
+    color: #FEFFFF;
 }
-
 
 /* Sets style for Footer font */
 footer h6 {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: #88BDBC;
+    color: #FEFFFF;
 }
 

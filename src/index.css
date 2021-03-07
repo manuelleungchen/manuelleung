@@ -4,22 +4,8 @@
 by adding the scrollbar on all pages */
 html {
     overflow-y: scroll; 
-    height: 100%;
+    background-color: #17252A;
 }
 
-/* This hidden the scrollbar without affecting the scrolling */
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
-}
 
-/* Set body style */
-body {
-    /* Create a background patterns with CSS */
-    background-color: #E3E2DF;
-    
-    /* Set the font style across the whole body tag */
-    font-size: 20px;
-    /* height: 0%; */
-}
 

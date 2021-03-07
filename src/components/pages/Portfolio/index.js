@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-import Bonappvoyage from "../../assets/images/Bonappvoyage.png";
-import WeatherDashboard from "../../assets/images/Weather_dashboard.png";
-import PasswordGenerator from "../../assets/images/Password_generator.png";
-import Youtwitch from "../../assets/images/Youtwitch.png";
+import Bonappvoyage from "../../assets/images/bonappvoyage.png";
+import WeatherDashboard from "../../assets/images/weather-dashboard.png";
+import PasswordGenerator from "../../assets/images/password-generator.png";
+import Youtwitch from "../../assets/images/youtwitch.png";
 import BurgerLogger from "../../assets/images/burger-logger.png";
 
 
@@ -13,7 +13,6 @@ function Contact() {
             <div className="row">
                 <header className="col-12">
                     <h2>PROJECTS</h2>
-                    <hr></hr>
                 </header>
 
                 <section className="row project-section">
@@ -29,7 +28,7 @@ function Contact() {
                     <img src={Bonappvoyage} alt="Avatar" className="col-sm-12 col-md-6 col-lg-6 project-image"></img>
                 </section>
 
-                <section className="row">
+                <section className="row project-section">
                     <div className="col-sm-12 col-md-6 col-lg-6 project-info">
                         <h3 className="project-title">Weather Dashboard</h3>
                         <h4 className="highlight">JavaScript/JQuery</h4>
@@ -40,9 +39,10 @@ function Contact() {
                         </div>
                     </div>
                     <img src={WeatherDashboard} alt="Avatar" className="col-sm-12 col-md-6 col-lg-6 project-image"></img>
+
                 </section>
 
-                <section className="row">
+                <section className="row project-section">
                     <div className="col-sm-12 col-md-6 col-lg-6 project-info">
                         <h3 className="project-title">Password Generator</h3>
                         <h4 className="highlight">JavaScript/BootStrap</h4>
@@ -55,7 +55,7 @@ function Contact() {
                     <img src={PasswordGenerator} alt="Avatar" className="col-sm-12 col-md-6 col-lg-6 project-image"></img>
                 </section>
 
-                <section className="row">
+                <section className="row project-section">
                     <div className="col-sm-12 col-md-6 col-lg-6 project-info">
                         <h3 className="project-title">YouTwitch</h3>
                         <h4 className="highlight">Node.js/Handlebars/Materialize</h4>
@@ -68,7 +68,7 @@ function Contact() {
                     <img src={Youtwitch} alt="Avatar" className="col-sm-12 col-md-6 col-lg-6 project-image"></img>
                 </section>
 
-                <section className="row">
+                <section className="row project-section">
                     <div className="col-sm-12 col-md-6 col-lg-6 project-info">
                         <h3 className="project-title">Burger Logger</h3>
                         <h4 className="highlight">Heroku/Node.js</h4>

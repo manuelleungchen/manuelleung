@@ -4,9 +4,10 @@
 
 #contact-container {
     padding: 30px;
-    background-color: #E3E2DF;
+    margin-top: 100px;
+    background-color: #254E58;
     font-family: 'Big Shoulders Inline Text', cursive;
-    color: black;
+    color: #FEFFFF;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -19,7 +20,8 @@
 
 /* Increase the size and change color of the Submit button */
 #submit-btn {
-    background-color: #88BDBC;
+    background-color: #2B7A78;
+    color: #FEFFFF;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -27,8 +29,8 @@
     border: none;
 }
 #submit-btn:hover {
-    color: white;
-    background-color: #043332;
+    color: #FEFFFF;
+    background-color: #3AAFA9;
 }
 
 /* Sets portrait size and paddings for Screen below 769 pixels  */
