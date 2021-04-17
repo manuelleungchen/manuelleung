@@ -1,18 +1,19 @@
+
 header nav{
     background-color: #0f181b;
     font-family: 'Big Shoulders Inline Text', cursive;
 }
 
 #logo {
-    width: 100px;
+    width: 50px;
 }
 
 /* Sets style for the Nav Bar */
 #name {
     background-color: #0f181b;
-    color: rgb(126, 99, 33);
+    color: #ffbd59;
     font-family: 'Texturina', serif;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -20,9 +21,11 @@ header nav{
     color: #FEFFFF;
 }
 
-.nav-link-active {
-    font-size: 25px;
-}
+.active {
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+  }
+
 
 .nav-link:hover {
     color: #88BDBC;
@@ -35,5 +38,16 @@ header nav{
         display: none;
     }
 }
+
+/* Only stick if you can fit */
+@media (min-height: 400px) {
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+  }
+
+
 
 
