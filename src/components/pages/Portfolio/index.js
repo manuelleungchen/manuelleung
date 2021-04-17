@@ -3,7 +3,7 @@ import "./style.css";
 import Project from "../../Project";
 import data from "../../assets/json/projects.json";
 
-function Portfolio() {
+const Portfolio = React.forwardRef((props, ref) => {
     let projects = data.map(project => {
         return <Project
             key={project.id}
@@ -18,18 +18,18 @@ function Portfolio() {
     })
 
     return (
-       
-            <main id="portfolio-container">
-                <div className="row">
-                    <header className="col-12">
-                        <h2>PROJECTS</h2>
-                        <hr></hr>
-                    </header>
-                    {projects}
-                </div>
-            </main>
-           
+
+        <article className="portfolio" id="portfolio" ref={ref}>
+            <div className="row">
+                <section className="col-12">
+                    <h2 id="portfolio-header">PROJECTS</h2>
+                    <hr></hr>
+                </section>
+            </div>
+            {projects}
+        </article>
+
     )
-}
+})
 
 export default Portfolio;

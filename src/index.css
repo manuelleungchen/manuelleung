@@ -2,10 +2,15 @@
 
 /* This code stops the page from moving when clicking on a new link
 by adding the scrollbar on all pages */
-html {
-    overflow-y: scroll; 
+
+html, #root {
     background-color: #17252A;
 }
 
+/* This hidden the scrollbar without affecting the scrolling */
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 
 
