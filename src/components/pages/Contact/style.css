@@ -1,49 +1,66 @@
-/* Style for Contact.html */
+.contact-modal {
+    background-color: grey;
+}
 
-/* Sets padding around each form input */
+#contact-modal {
+    width: 70vw;
+    max-width: 100vw;
+}
+
+.modal-header {
+    background-color: #0f181b;
+}
+
+.modal-title {
+    color: #ffbd59;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f181b
+}
+
+#close-button {
+    color: #FEFFFF;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f181b;
+    border: none
+}
+
+.modal-body {
+    background-color: #254E58;
+}
 
 #contact {
-    padding: 30px;
-    margin-top: 50px;
-    background-color: #254E58;
-    font-family: 'Big Shoulders Inline Text', cursive;
+    text-align: center;
     color: #FEFFFF;
-    width: 90%;
+}
+
+#contact h4 {
+    margin: 30px;
+    font-family: 'Big Shoulders Inline Text';
+    color: #a3f5f2;
+}
+
+#contact button {
+    background-color: #2B7A78;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FEFFFF;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 10px;
+    display: block;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.form-group {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-/* Increase the size and change color of the Submit button */
-#submit-btn {
-    background-color: #0f181b;
-    color: #FEFFFF;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 50px;
-    border: none;
-}
-#submit-btn:hover {
-    color: #FEFFFF;
-    background-color: #3AAFA9;
-}
-
-/* Sets portrait size and paddings for Screen below 769 pixels  */
 @media screen and (max-width: 768px) {
-    #contact {
-        width: 90%;
-        margin-top: 0px;
+    #contact-modal {
+        width: 95vw;
+        max-width: 100vw;
     }
-}
-
-/* Sets portrait size and paddings for Screen below 769 pixels  */
-@media screen and (max-width: 500px) {
-    #contact {
-        width: 100%;
+    #contact button {
+        width: 50%;
     }
 }

@@ -1,5 +1,6 @@
+/* Sets style for the Nav Bar */
 
-header nav{
+header nav {
     background-color: #0f181b;
     font-family: 'Big Shoulders Inline Text', cursive;
 }
@@ -8,32 +9,29 @@ header nav{
     width: 50px;
 }
 
-/* Sets style for the Nav Bar */
 #name {
     background-color: #0f181b;
     color: #ffbd59;
-    font-family: 'Texturina', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
 
 .nav-link {
-    color: #FEFFFF;
+    color: #FFFFFF;
 }
 
 .active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #FFFFFF;
     font-size: 20px;
-  }
-
+}
 
 .nav-link:hover {
     color: #88BDBC;
 }
 
-
-/* Sets portrait size and paddings for Screen below 769 pixels  */
-@media screen and (max-width: 768px) {
+/* Sets portrait size and paddings for Screen below 500 pixels  */
+@media screen and (max-width: 500px) {
     #name {
         display: none;
     }
@@ -42,12 +40,8 @@ header nav{
 /* Only stick if you can fit */
 @media (min-height: 400px) {
     header {
-      position: sticky;
-      top: 0;
-      z-index: 1;
+        position: sticky;
+        top: 0;
+        z-index: 1;
     }
-  }
-
-
-
-
+}

@@ -18,8 +18,7 @@ const Portfolio = React.forwardRef((props, ref) => {
     })
 
     return (
-
-        <article className="portfolio" id="portfolio" ref={ref}>
+        <article id="portfolio" ref={ref}>
             <div className="row">
                 <section className="col-12">
                     <h2 id="portfolio-header">PROJECTS</h2>
