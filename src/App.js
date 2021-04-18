@@ -72,16 +72,13 @@ function App() {
         contactObserver.observe(contactRef.current);
     }, []);
 
-
-
     return (
        
-
         <>
             <Navbar key={section} activeSection={section} />
             <main className="container">
                 <About ref={aboutRef} />  
-                <hr id="portfolio-hr"></hr>
+                {/* <hr id="portfolio-hr"></hr> */}
                 <Portfolio ref={portfolioRef} />
                 <hr></hr>
                 <Contact ref={contactRef} /> 

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 // import Logo from "../assets/logo.png";
 
-function Navbar({activeSection}) {
+function Navbar({ activeSection }) {
 
     const [aboutActive, setAboutActive] = useState("");
     const [portfActive, setPortfActive] = useState("");
@@ -25,9 +25,9 @@ function Navbar({activeSection}) {
             default:
                 break;
         }
-        
+
     }, [activeSection])
-   
+
     return (
         <header>
             <nav className="navbar navbar-expand">

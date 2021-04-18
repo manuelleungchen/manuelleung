@@ -1,0 +1,33 @@
+#form {
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #254E58;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    color: #FEFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group, .form-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Increase the size and change color of the Submit button */
+
+#submit-btn {
+    background-color: #0f181b;
+    color: #FEFFFF;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+#submit-btn:hover {
+    color: #FEFFFF;
+    background-color: #3AAFA9;
+}
