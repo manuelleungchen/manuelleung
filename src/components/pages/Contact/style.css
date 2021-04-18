@@ -30,18 +30,18 @@
     background-color: #254E58;
 }
 
-#contact {
+#contact-section {
     text-align: center;
     color: #FEFFFF;
 }
 
-#contact h4 {
+#contact-section h4 {
     margin: 30px;
     font-family: 'Big Shoulders Inline Text';
     color: #a3f5f2;
 }
 
-#contact button {
+#contact-section button {
     background-color: #2B7A78;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -60,7 +60,7 @@
         width: 95vw;
         max-width: 100vw;
     }
-    #contact button {
+    #contact-section button {
         width: 50%;
     }
 }

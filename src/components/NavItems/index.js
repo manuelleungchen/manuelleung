@@ -13,7 +13,7 @@ const NavItems = ({ activeSection }) => {
             case 'about':
                 setAboutActive("active");
                 break;
-            case 'portfolio':
+            case 'portfolio-header':
                 setPortfActive("active");
                 break;
             case 'contact':
