@@ -17,19 +17,6 @@ header nav {
     font-weight: bold;
 }
 
-.nav-link {
-    color: #FFFFFF;
-}
-
-.active {
-    border-bottom: 2px solid #FFFFFF;
-    font-size: 20px;
-}
-
-.nav-link:hover {
-    color: #88BDBC;
-}
-
 /* Sets portrait size and paddings for Screen below 500 pixels  */
 @media screen and (max-width: 500px) {
     #name {

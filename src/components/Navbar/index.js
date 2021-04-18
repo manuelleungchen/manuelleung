@@ -1,32 +1,8 @@
-import React, { useState, useEffect } from "react";
-// import { NavLink } from 'react-router-dom';
+import React from "react";
+import NavItems from "../NavItems";
 import "./style.css";
-// import Logo from "../assets/logo.png";
 
-function Navbar({ activeSection }) {
-
-    const [aboutActive, setAboutActive] = useState("");
-    const [portfActive, setPortfActive] = useState("");
-    const [contactActive, setContactActive] = useState("");
-
-    useEffect(() => {
-
-        // console.log(`Ooko ${activeSection}` )
-        switch (activeSection) {
-            case 'about':
-                setAboutActive("active");
-                break;
-            case 'portfolio':
-                setPortfActive("active");
-                break;
-            case 'contact':
-                setContactActive("active");
-                break;
-            default:
-                break;
-        }
-
-    }, [activeSection])
+function Navbar({ activeSec }) {
 
     return (
         <header>
@@ -37,17 +13,7 @@ function Navbar({ activeSection }) {
                         <h1 className="navbar-brand" id="name">anuel Leung Chen</h1>
                     </a>
                 </div>
-                <ul className="navbar-nav ml-auto">
-                    <li>
-                        <a className={`nav-link ${aboutActive}`} href="#about">About Me</a>
-                    </li>
-                    <li>
-                        <a className={`nav-link ${portfActive}`} href="#portfolio-hr">Portfolio</a>
-                    </li>
-                    <li>
-                        <a className={`nav-link ${contactActive}`} href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <NavItems key={activeSec} activeSection={activeSec}></NavItems>
             </nav>
         </header>
     )

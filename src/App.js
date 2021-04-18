@@ -18,9 +18,7 @@ function App() {
     useEffect(() => {
         const aboutObserver = new IntersectionObserver(
             ([entry]) => {
-                
                 // Check if section is intersecting on the view port
-    
                 if (entry.isIntersecting) {
                     // Add active navbar
                     setSection(entry.target.id)
@@ -32,12 +30,9 @@ function App() {
                 threshold: 0.4   // Call Callback function when threshold is passed
             }
         );
-
         const portfolioObserver = new IntersectionObserver(
             ([entry]) => {
-                
-                // Check if section is intersecting on the view port
-        
+                // Check if section is intersecting on the view port      
                 if (entry.isIntersecting) {
                     // Add active navbar
                     setSection(entry.target.id)
@@ -49,12 +44,9 @@ function App() {
                 threshold: 0.1   // Call Callback function when threshold is passed
             }
         );
-
         const contactObserver = new IntersectionObserver(
             ([entry]) => {
-                
                 // Check if section is intersecting on the view port
-        
                 if (entry.isIntersecting) {
                     // Add active navbar
                     setSection(entry.target.id)
@@ -66,22 +58,22 @@ function App() {
                 threshold: 0.5   // Call Callback function when threshold is passed
             }
         );
-    
+
         aboutObserver.observe(aboutRef.current);
         portfolioObserver.observe(portfolioRef.current);
         contactObserver.observe(contactRef.current);
     }, []);
 
     return (
-       
+
         <>
-            <Navbar key={section} activeSection={section} />
+            <Navbar activeSec={section} />
             <main className="container">
-                <About ref={aboutRef} />  
+                <About ref={aboutRef} />
                 {/* <hr id="portfolio-hr"></hr> */}
                 <Portfolio ref={portfolioRef} />
                 <hr></hr>
-                <Contact ref={contactRef} /> 
+                <Contact ref={contactRef} />
             </main>
             <Footer />
         </>
