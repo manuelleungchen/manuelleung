@@ -3,9 +3,13 @@ import { useForm, ValidationError } from '@formspree/react';
 import "./style.css";
 
 
-const Contactform = () => {
+const Contactform = ({successfully}) => {
 
     const [state, handleSubmit] = useForm("xvodgkky");
+
+    if (state.succeeded) {
+        successfully();
+    }
 
     return (
             <form id="form" onSubmit={handleSubmit}>

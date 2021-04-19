@@ -13,13 +13,13 @@ const Contact = React.forwardRef((props, ref) => {
 
     return (
         <article id="contact" ref={ref}>
-            <Modal show={showModal} onHide={() => {toggleModal()}} className="contact-modal" id="contact-modal">
+            <Modal show={showModal} onHide={() => toggleModal()} className="contact-modal" id="contact-modal">
                 <Modal.Header closeLabel="Close Button" className="modal-header">
                     <Modal.Title>Contact Me</Modal.Title>
-                    <button id="close-button" onClick={() => { toggleModal() }}>X</button>
+                    <button id="close-button" onClick={() => toggleModal()}>X</button>
                 </Modal.Header>
                 <Modal.Body id="modal-body">
-                    <Form />
+                    <Form successfully={() => setShowModal(false)} />
                 </Modal.Body>
             </Modal>
             <section id="contact-section">
