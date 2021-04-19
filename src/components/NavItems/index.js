@@ -13,7 +13,7 @@ const NavItems = ({ activeSection }) => {
             case 'about':
                 setAboutActive("active");
                 break;
-            case 'portfolio-header':
+            case 'portfolio':
                 setPortfActive("active");
                 break;
             case 'contact':
@@ -30,7 +30,7 @@ const NavItems = ({ activeSection }) => {
                 <a className={`nav-link ${aboutActive}`} href="#about">About Me</a>
             </li>
             <li>
-                <a className={`nav-link ${portfActive}`} href="#portfolio-hr">Portfolio</a>
+                <a className={`nav-link ${portfActive}`} href="#portfolio">Portfolio</a>
             </li>
             <li>
                 <a className={`nav-link ${contactActive}`} href="#contact">Contact</a>

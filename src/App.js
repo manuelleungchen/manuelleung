@@ -15,8 +15,6 @@ function App() {
     const portfolioRef = React.createRef();
     const contactRef = React.createRef();
 
-    const hrRef = useRef()
-
     useEffect(() => {
         const aboutObserver = new IntersectionObserver(
             ([entry]) => {
@@ -25,11 +23,14 @@ function App() {
                     // Add active section to section state
                     setSection(entry.target.id)
                 }
+                else {
+                    setSection("portfolio")
+                }
             },
             {
                 root: null,
                 rootMargin: "0px",
-                threshold: 0.7   // Call Callback function when threshold is passed
+                threshold: 0.4   // Call Callback function when threshold is passed
             }
         );
         const portfolioObserver = new IntersectionObserver(
@@ -43,7 +44,7 @@ function App() {
             {
                 root: null,
                 rootMargin: "0px",
-                threshold: 1   // Call Callback function when threshold is passed
+                threshold: 0.2   // Call Callback function when threshold is passed
             }
         );
         const contactObserver = new IntersectionObserver(
@@ -54,7 +55,7 @@ function App() {
                     setSection(entry.target.id)
                 }
                 else {
-                    setSection("portfolio-header")
+                    setSection("portfolio")
                 }
             },
             {
