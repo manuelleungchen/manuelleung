@@ -19,6 +19,8 @@ const About = React.forwardRef((props, ref) => (
                     Known among colleagues for strong collaboration and attention to details no matter the
                     challenge.
                 </p>
+                <p>Phone: 647-704-2246</p>
+                <p>Email: manuel.leungchen@gmail.com</p>
             </section>
         </div>
     </article>

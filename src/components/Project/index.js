@@ -10,8 +10,8 @@ function Project({ id, title, image, highlight, description, github, url }) {
                 <h4 className="highlight">{highlight}</h4>
                 <p>{description}</p>
                 <div className="button-div">
-                    <a href={url} className="link-button" rel="noreferrer" target="_blank">Visit Site</a>
-                    <a href={github} className="link-button" rel="noreferrer" target="_blank">Check Repo</a>
+                    <a href={url} className="link-button" rel="noreferrer" target="_blank">Live Site</a>
+                    <a href={github} className="link-button" rel="noreferrer" target="_blank">Github</a>
                 </div>
             </section>
             <section className="col-sm-12 col-md-6 col-lg-6">
