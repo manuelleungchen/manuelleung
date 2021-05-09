@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/manuelleung/static/css/main.658b4489.chunk.css",
-    "main.js": "/manuelleung/static/js/main.6a57d552.chunk.js",
-    "main.js.map": "/manuelleung/static/js/main.6a57d552.chunk.js.map",
-    "runtime-main.js": "/manuelleung/static/js/runtime-main.cc7c3e01.js",
-    "runtime-main.js.map": "/manuelleung/static/js/runtime-main.cc7c3e01.js.map",
+    "main.css": "/manuelleung/static/css/main.d32f24fe.chunk.css",
+    "main.js": "/manuelleung/static/js/main.91071245.chunk.js",
+    "main.js.map": "/manuelleung/static/js/main.91071245.chunk.js.map",
+    "runtime-main.js": "/manuelleung/static/js/runtime-main.9bbb5758.js",
+    "runtime-main.js.map": "/manuelleung/static/js/runtime-main.9bbb5758.js.map",
     "static/css/2.150d169a.chunk.css": "/manuelleung/static/css/2.150d169a.chunk.css",
-    "static/js/2.c84e5e18.chunk.js": "/manuelleung/static/js/2.c84e5e18.chunk.js",
-    "static/js/2.c84e5e18.chunk.js.map": "/manuelleung/static/js/2.c84e5e18.chunk.js.map",
-    "static/js/3.e29f5157.chunk.js": "/manuelleung/static/js/3.e29f5157.chunk.js",
-    "static/js/3.e29f5157.chunk.js.map": "/manuelleung/static/js/3.e29f5157.chunk.js.map",
+    "static/js/2.dbda9044.chunk.js": "/manuelleung/static/js/2.dbda9044.chunk.js",
+    "static/js/2.dbda9044.chunk.js.map": "/manuelleung/static/js/2.dbda9044.chunk.js.map",
+    "static/js/3.db937d25.chunk.js": "/manuelleung/static/js/3.db937d25.chunk.js",
+    "static/js/3.db937d25.chunk.js.map": "/manuelleung/static/js/3.db937d25.chunk.js.map",
     "index.html": "/manuelleung/index.html",
     "static/css/2.150d169a.chunk.css.map": "/manuelleung/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.658b4489.chunk.css.map": "/manuelleung/static/css/main.658b4489.chunk.css.map",
-    "static/js/2.c84e5e18.chunk.js.LICENSE.txt": "/manuelleung/static/js/2.c84e5e18.chunk.js.LICENSE.txt",
+    "static/css/main.d32f24fe.chunk.css.map": "/manuelleung/static/css/main.d32f24fe.chunk.css.map",
+    "static/js/2.dbda9044.chunk.js.LICENSE.txt": "/manuelleung/static/js/2.dbda9044.chunk.js.LICENSE.txt",
     "static/media/Resume.d2cf8b64.pdf": "/manuelleung/static/media/Resume.d2cf8b64.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc7c3e01.js",
+    "static/js/runtime-main.9bbb5758.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.c84e5e18.chunk.js",
-    "static/css/main.658b4489.chunk.css",
-    "static/js/main.6a57d552.chunk.js"
+    "static/js/2.dbda9044.chunk.js",
+    "static/css/main.d32f24fe.chunk.css",
+    "static/js/main.91071245.chunk.js"
   ]
 }
