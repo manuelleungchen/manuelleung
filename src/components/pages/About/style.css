@@ -3,6 +3,7 @@
 #about {
     margin: 0;
     padding: 0;
+    padding-top: 100px;
     height: 100%;
     background-color: #17252A;
 }
@@ -11,39 +12,117 @@
     height: 100%;
 }
 
-#about-container {
+
+/* Sets portrait paddings */
+#portrait-image {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+
+hr {
+    background-color: #ffbd59;
+}
+
+#abouet-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
     padding: 30px;
-    margin-top: 50px;
     color: #FFFFFF;
 }
 
-#about-container h3 {
+#abouet-me h3 {
     font-family: 'Texturina', serif;
+    color: #ffbd59;
 }
 
 #about-container p {
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Indie Flower';
 }
 
-/* Sets portrait paddings */
-#portrait-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+#social span {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 35px;
+    color: #FEFFFF;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+#skills h3 {
+    font-family: 'Texturina', serif;
+    text-align: center;
+    color: #ffbd59;
+}
+
+#skills p {
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+#skill-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#skill-icons i, svg {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 35px;
+    color: #FEFFFF;
 }
 
 /* Sets portrait size and paddings for Screen below 769 pixels  */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     
     #about-container {
         margin: 0px;
     }
    
-}
+} */
+
+#motionDivOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: 95%;
+    background: #335764;    
+  }
+
+  #motionDivTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: 95%;
+    background: #7a9199;
+  }
+
 

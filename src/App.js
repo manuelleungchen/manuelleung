@@ -76,6 +76,7 @@ function App() {
         <>
             <Navbar activeSec={section} />
             <main className="container">
+                
                 <About ref={aboutRef} />
                 <hr></hr>
                 <Portfolio ref={portfolioRef} />

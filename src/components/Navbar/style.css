@@ -5,9 +5,10 @@ header nav {
     font-family: 'Big Shoulders Inline Text', cursive;
 }
 
-#logo {
+/* #logo {
     width: 50px;
-}
+    color: white;
+} */
 
 #name {
     background-color: #0f181b;
@@ -16,6 +17,15 @@ header nav {
     font-size: 20px;
     font-weight: bold;
 }
+
+#logo {
+    width: 80px;
+    overflow: visible;
+    stroke: #ffbd59;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
 
 /* Sets portrait size and paddings for Screen below 500 pixels  */
 @media screen and (max-width: 500px) {

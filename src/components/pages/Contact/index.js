@@ -2,6 +2,19 @@ import React, { useState } from "react";
 import "./style.css";
 import Form from "../../Form"
 import { Modal } from "react-bootstrap";
+import { motion } from 'framer-motion';
+
+const buttonVariants = {
+    hover: {
+        scale: 1.1,
+        textShadow: '0px 0px 8px rgb(255,255,255)',
+        boxShadow: '0px 0px 8px rgb(255,255,255)',
+        transition: {
+            yoyo: Infinity,
+            duration: 0.5
+        }
+    }
+}
 
 const Contact = React.forwardRef((props, ref) => {
     // Modal 
@@ -24,7 +37,12 @@ const Contact = React.forwardRef((props, ref) => {
             </Modal>
             <section id="contact-section">
                 <h4>Want to work with me?</h4>
-                <button onClick={() => toggleModal()}>Message me</button>
+                <motion.button onClick={() => toggleModal()}
+                variants={buttonVariants}
+                whileHover="hover"
+                >
+                    Message me
+                </motion.button>
             </section>
         </article>
     )
