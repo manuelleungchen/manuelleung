@@ -3,8 +3,10 @@ import "./style.css";
 import Resume from "../../assets/pdf/Resume.pdf"
 import { motion } from "framer-motion";
 
-const About = React.forwardRef((props, ref) => (
-    <article id="about" ref={ref}>
+function About(){
+
+    return (
+    <article id="about">
         <div className="row">
             <section className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <motion.div
@@ -83,6 +85,6 @@ const About = React.forwardRef((props, ref) => (
             </section>
         </div>
     </article>
-))
+)}
 
 export default About;

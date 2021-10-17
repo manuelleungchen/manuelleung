@@ -1,4 +1,4 @@
-.contact-modal {
+/* .contact-modal {
     background-color: grey;
 }
 
@@ -28,20 +28,21 @@
 
 .modal-body {
     background-color: #254E58;
-}
+} */
 
-#contact-section {
+/* #contact-section {
     text-align: center;
     color: #FEFFFF;
-}
+} */
 
 #contact-section h4 {
     margin: 30px;
+    text-align: center;
     font-family: 'Big Shoulders Inline Text';
     color: #a3f5f2;
 }
 
-#contact-section button {
+/* #contact-section button {
     background-color: #2B7A78;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -53,9 +54,9 @@
     width: 20%;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     #contact-modal {
         width: 95vw;
         max-width: 100vw;
@@ -63,4 +64,4 @@
     #contact-section button {
         width: 50%;
     }
-}
+} */

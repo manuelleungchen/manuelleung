@@ -27,6 +27,19 @@ header nav {
     stroke-linecap: round;
   }
 
+  .nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link-active {
+    border-bottom: 2px solid #FFFFFF;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #88BDBC;
+}
+
 /* Sets portrait size and paddings for Screen below 500 pixels  */
 @media screen and (max-width: 500px) {
     #name {

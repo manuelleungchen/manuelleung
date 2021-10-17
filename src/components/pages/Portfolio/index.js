@@ -3,7 +3,7 @@ import "./style.css";
 import Project from "../../Project";
 import data from "../../assets/json/projects.json";
 
-const Portfolio = React.forwardRef((props, ref) => {
+function Portfolio (){
     let projects = data.map(project => {
         return <Project
             key={project.id}
@@ -18,7 +18,7 @@ const Portfolio = React.forwardRef((props, ref) => {
     })
 
     return (
-        <article id="portfolio" ref={ref}>
+        <article id="portfolio">
             <div className="row">
                 <section className="col-12">
                     <h2 id="portfolio-header">PROJECTS</h2>
@@ -28,6 +28,6 @@ const Portfolio = React.forwardRef((props, ref) => {
             {projects}
         </article>
     )
-})
+}
 
 export default Portfolio;
