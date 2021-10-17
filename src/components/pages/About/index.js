@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Resume from "../../assets/pdf/Resume.pdf"
 import { motion } from "framer-motion";
+import NextButton from "../../nextButton";
 
 function About(){
 
@@ -82,6 +83,9 @@ function About(){
                         {/* <div><p>CLI</p></div> */}
                     </div>
                 </div>
+            </section>
+            <section className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <NextButton nextPage="portfolio" ></NextButton>
             </section>
         </div>
     </article>

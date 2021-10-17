@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Project from "../../Project";
 import data from "../../assets/json/projects.json";
+import NextButton from "../../nextButton";
 
 function Portfolio (){
     let projects = data.map(project => {
@@ -26,6 +27,9 @@ function Portfolio (){
                 </section>
             </div>
             {projects}
+            <section className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <NextButton nextPage="contact" ></NextButton>
+            </section>
         </article>
     )
 }
