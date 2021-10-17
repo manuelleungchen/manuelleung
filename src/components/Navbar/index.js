@@ -1,5 +1,5 @@
 import React from "react";
-import NavItems from "../NavItems";
+import { NavLink } from 'react-router-dom';
 import "./style.css";
 import { motion } from "framer-motion";
 
@@ -63,7 +63,32 @@ function Navbar({ activeSec }) {
                         <h1 className="navbar-brand" id="name">anuel Leung Chen</h1>
                     </a>
                 </div>
-                <NavItems key={activeSec} activeSection={activeSec}></NavItems>
+                {/* <NavItems></NavItems> */}
+                <ul className="navbar-nav ml-auto">
+
+                <NavLink
+                    exact
+                    activeClassName="nav-link-active"
+                    className="nav-link"
+                    to="/"
+                >
+                    About
+                </NavLink>
+                <NavLink
+                    activeClassName="nav-link-active"
+                    className="nav-link"
+                    to="/portfolio"
+                >
+                    Portfolio
+                </NavLink>
+                <NavLink
+                    activeClassName="nav-link-active"
+                    className="nav-link"
+                    to="/contact"
+                >
+                    Contacts
+                </NavLink>
+                </ul>
             </nav>
         </header>
     )

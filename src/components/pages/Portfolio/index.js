@@ -2,8 +2,9 @@ import React from "react";
 import "./style.css";
 import Project from "../../Project";
 import data from "../../assets/json/projects.json";
+import NextButton from "../../nextButton";
 
-const Portfolio = React.forwardRef((props, ref) => {
+function Portfolio (){
     let projects = data.map(project => {
         return <Project
             key={project.id}
@@ -18,7 +19,7 @@ const Portfolio = React.forwardRef((props, ref) => {
     })
 
     return (
-        <article id="portfolio" ref={ref}>
+        <article id="portfolio">
             <div className="row">
                 <section className="col-12">
                     <h2 id="portfolio-header">PROJECTS</h2>
@@ -26,8 +27,11 @@ const Portfolio = React.forwardRef((props, ref) => {
                 </section>
             </div>
             {projects}
+            <section className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <NextButton nextPage="contact" ></NextButton>
+            </section>
         </article>
     )
-})
+}
 
 export default Portfolio;

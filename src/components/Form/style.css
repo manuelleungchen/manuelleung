@@ -4,8 +4,8 @@
     background-color: #254E58;
     font-family: 'Big Shoulders Inline Text', cursive;
     color: #FEFFFF;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 .form-group, .form-button {
