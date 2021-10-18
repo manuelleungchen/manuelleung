@@ -30,7 +30,7 @@ hr {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    padding: 30px;
+    padding: 20px;
     color: #FFFFFF;
 }
 
@@ -45,12 +45,14 @@ hr {
 }
 
 #social {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: justify;
-    padding: 30px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    text-align: center;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #FFFFFF;
 }
 
@@ -61,37 +63,40 @@ hr {
     color: #FEFFFF;
 }
 
-#skills {
+/* #skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
     color: #FFFFFF;
-}
+} */
 
 #skills h3 {
     font-family: 'Texturina', serif;
     text-align: center;
     color: #ffbd59;
+    padding-top: 15px;
 }
 
-#skills p {
-    font-size: 15px;
+
+
+#skill-icons {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; */
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+#skill-icons p {
+    font-size: 12px;
     font-family: 'Roboto';
 }
 
-#skill-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    
-}
-
-#skill-icons i, svg {
-    margin-top: 10px;
-    padding: 5px;
+#skill-icons i {
+    margin-top: 5px;
+    padding: 2px;
     font-size: 35px;
     color: #FEFFFF;
 }
