@@ -10,37 +10,39 @@ function About(){
     <article id="about">
         <div className="row">
             <section className="col-12 col-sm-12 col-md-6 col-lg-6">
-                <motion.div
-                    id="motionDivTwo"
-                    animate={{ borderRadius: ["38% 68% 32% 62%", "58% 38% 72% 42%", "45% 35% 55% 65%"] }}
-                    transition={{
-                        duration: 12,
-                        yoyo: Infinity,
-                        ease: "easeInOut"
-                    }}
-                >
+                <div id="portrait-container">
                     <motion.div
-                        id="motionDivOne"
-                        animate={{ borderRadius: ["38% 68% 32% 62%", "55% 35% 75% 55%", "58% 38% 72% 42%"] }}
+                        id="motionDivTwo"
+                        animate={{ borderRadius: ["38% 68% 32% 62%", "58% 38% 72% 42%", "45% 35% 55% 65%"] }}
                         transition={{
-                            duration: 10,
+                            duration: 12,
                             yoyo: Infinity,
                             ease: "easeInOut"
                         }}
                     >
-                        <motion.img src={process.env.PUBLIC_URL + "/images/bw-portrait.jpg"} alt="Portrait of Manuel" id="portrait-image"
-                            animate={{ borderRadius: ["35% 45% 50% 75%", "38% 68% 32% 62%", "58% 38% 72% 42%"] }}
+                        <motion.div
+                            id="motionDivOne"
+                            animate={{ borderRadius: ["38% 68% 32% 62%", "55% 35% 75% 55%", "58% 38% 72% 42%"] }}
                             transition={{
-                                duration: 15,
+                                duration: 10,
                                 yoyo: Infinity,
                                 ease: "easeInOut"
                             }}
-                        ></motion.img>
+                        >
+                            <motion.img src={process.env.PUBLIC_URL + "/images/bw-portrait.jpg"} alt="Portrait of Manuel" id="portrait-image"
+                                animate={{ borderRadius: ["35% 45% 50% 75%", "38% 68% 32% 62%", "58% 38% 72% 42%"] }}
+                                transition={{
+                                    duration: 15,
+                                    yoyo: Infinity,
+                                    ease: "easeInOut"
+                                }}
+                            ></motion.img>
+                        </motion.div>
                     </motion.div>
-                </motion.div>
+                </div>
             </section>
             <section className="col-12 col-sm-12 col-md-6 col-lg-6">
-                <div id="abouet-me">
+                <div id="about-me">
                     <h3>ABOUT ME</h3>
                     <hr></hr>
                     <p>
@@ -55,28 +57,24 @@ function About(){
                 <div className="row" id="social">
                     <div className="col-3">
                     <a href="https://www.linkedin.com/in/manuel-leung-chen/" rel="noreferrer" target="_blank">
-                        <span className="fab fa-linkedin"></span></a>
+                        <i className="fab fa-linkedin"></i></a>
                     </div>
                     <div className="col-3">
                         <a href="https://github.com/manuelleungchen" rel="noreferrer" target="_blank">
-                        <span className="fab fa-github"></span></a>
+                        <i className="fab fa-github"></i></a>
                         </div>
                     <div className="col-3">
                     <a href="https://www.instagram.com/mleungc/" rel="noreferrer" target="_blank">
-                        <span className="fab fa-instagram"></span></a>
+                        <i className="fab fa-instagram"></i></a>
                     </div>
                     <div className="col-3">
                     <a href={Resume} rel="noreferrer" target="_blank">
-                        <span className="far fa-file-pdf"></span></a>
+                        <i className="far fa-file-pdf"></i></a>
                     </div>
-
-                    
-                    
-                    
-                    
                 </div>
             </section>
             <section className="col-12">
+            <hr></hr>
                 <div id="skills">
                     <h3>SKILLS</h3>
                     <div className="row" id="skill-icons">
@@ -90,6 +88,7 @@ function About(){
                         <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-github"></i><p>Github</p></div>
                         <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-mobile-alt"></i><p>Responsive</p></div>
                         <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-database"></i><p>MongoDB</p></div>
+                        <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-server"></i><p>Heroku</p></div>
                         <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-database"></i><p>MySQL</p></div>
                     </div>
                 </div>
