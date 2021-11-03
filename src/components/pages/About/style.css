@@ -3,7 +3,7 @@
 #about {
     margin: 0;
     padding: 0;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     height: 100%;
     background-color: #17252A;
 }
@@ -12,19 +12,7 @@
     height: 100%;
 }
 
-
-/* Sets portrait paddings */
-#portrait-image {
-    width: 95%;
-    height: 95%;
-    object-fit: cover;
-}
-
-hr {
-    background-color: #ffbd59;
-}
-
-#abouet-me {
+#portrait-container, #about-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,82 +22,6 @@ hr {
     color: #FFFFFF;
 }
 
-#abouet-me h3 {
-    font-family: 'Texturina', serif;
-    color: #ffbd59;
-}
-
-#about-container p {
-    font-size: 15px;
-    font-family: 'Indie Flower';
-}
-
-#social {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    text-align: center;
-    padding: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: #FFFFFF;
-}
-
-#social span {
-    margin-top: 10px;
-    padding: 5px;
-    font-size: 35px;
-    color: #FEFFFF;
-}
-
-/* #skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    color: #FFFFFF;
-} */
-
-#skills h3 {
-    font-family: 'Texturina', serif;
-    text-align: center;
-    color: #ffbd59;
-    padding-top: 15px;
-}
-
-
-
-#skill-icons {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center; */
-    padding: 10px;
-    text-align: center;
-    color: #FFFFFF;    
-}
-#skill-icons p {
-    font-size: 12px;
-    font-family: 'Roboto';
-}
-
-#skill-icons i {
-    margin-top: 5px;
-    padding: 2px;
-    font-size: 35px;
-    color: #FEFFFF;
-}
-
-/* Sets portrait size and paddings for Screen below 769 pixels  */
-/* @media screen and (max-width: 768px) {
-    
-    #about-container {
-        margin: 0px;
-    }
-   
-} */
-
 #motionDivOne {
     display: flex;
     justify-content: center;
@@ -118,9 +30,9 @@ hr {
     width: 95%;
     height: 95%;
     background: #335764;    
-  }
+}
 
-  #motionDivTwo {
+#motionDivTwo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,6 +40,49 @@ hr {
     width: 95%;
     height: 95%;
     background: #7a9199;
-  }
+}
+
+/* Sets portrait paddings */
+#portrait-image {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+
+#about-me h3 {
+    font-family: 'Texturina', serif;
+    color: #ffbd59;
+}
+
+#about-me p {
+    font-size: 15px;
+    font-family: 'Indie Flower';
+}
+
+#social, #skill-icons {
+    padding: 15px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+#social i, #skill-icons i {
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+#skills h3 {
+    font-family: 'Texturina', serif;
+    text-align: center;
+    color: #ffbd59;
+    padding-top: 15px;
+}
+
+#skill-icons p {
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+
 
 
