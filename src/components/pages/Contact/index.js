@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import Form from "../../Form"
+import Form from "../../Form";
+import Footer from "../../Footer";
 
 function Contact() {
 
@@ -10,6 +11,7 @@ function Contact() {
                 <h2>Contact Me</h2>
                 <hr></hr>
                 <Form />
+                <Footer />
             </section>
         </article>
     )

@@ -3,13 +3,32 @@
 footer {
     background-color: #17252A;
     text-align: center;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
 }
 
 /* Sets style for Footer font */
 footer h6 {
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
     color: #FEFFFF;
 }
 
+#contact-social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-social-icons i {
+    margin: 5px;
+    color: #FEFFFF;
+    font-size: 25px;
+}
+
+/* Sets portrait size and paddings for Screen below 540 pixels  */
+@media screen and (max-width: 540px) {
+    footer {
+        position:static;
+    }
+}
