@@ -1,18 +1,13 @@
-
 /* Sets style for footer and makes it stick to bottom */
+
 footer {
     background-color: #17252A;
     text-align: center;
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0;
-}
-
-/* Sets style for Footer font */
-footer h6 {
-    text-align: center;
     color: #FEFFFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 #contact-social-icons {
@@ -23,12 +18,13 @@ footer h6 {
 #contact-social-icons i {
     margin: 5px;
     color: #FEFFFF;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 /* Sets portrait size and paddings for Screen below 540 pixels  */
+
 @media screen and (max-width: 540px) {
     footer {
-        position:static;
+        position: static;
     }
 }
