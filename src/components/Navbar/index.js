@@ -18,13 +18,13 @@ const pathVariants = {
     }
 }
 
-function Navbar({ activeSec }) {
+function Navbar() {
 
     return (
         <header>
             <nav className="navbar navbar-expand">
                 <div className="navbar-header">
-                    <a href="#about">
+                    <NavLink to="/about">
                         <svg alt="logo" id="logo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 374.999991" version="1.2"
                         >
                             <defs
@@ -61,33 +61,33 @@ function Navbar({ activeSec }) {
                         </svg>
                         {/* <img src={process.env.PUBLIC_URL + "/android-chrome-192x192.png"} alt="logo" id="logo"></img> */}
                         <h1 className="navbar-brand" id="name">anuel Leung Chen</h1>
-                    </a>
+                    </NavLink>
                 </div>
                 {/* <NavItems></NavItems> */}
                 <ul className="navbar-nav ml-auto">
 
-                <NavLink
-                    exact
-                    activeClassName="nav-link-active"
-                    className="nav-link"
-                    to="/"
-                >
-                    About
-                </NavLink>
-                <NavLink
-                    activeClassName="nav-link-active"
-                    className="nav-link"
-                    to="/portfolio"
-                >
-                    Portfolio
-                </NavLink>
-                <NavLink
-                    activeClassName="nav-link-active"
-                    className="nav-link"
-                    to="/contact"
-                >
-                    Contacts
-                </NavLink>
+                    <NavLink
+                        exact
+                        activeClassName="nav-link-active"
+                        className="nav-link"
+                        to="/about"
+                    >
+                        About
+                    </NavLink>
+                    <NavLink
+                        activeClassName="nav-link-active"
+                        className="nav-link"
+                        to="/portfolio"
+                    >
+                        Portfolio
+                    </NavLink>
+                    <NavLink
+                        activeClassName="nav-link-active"
+                        className="nav-link"
+                        to="/contact"
+                    >
+                        Contacts
+                    </NavLink>
                 </ul>
             </nav>
         </header>
