@@ -24,7 +24,7 @@ function Navbar() {
         <header>
             <nav className="navbar navbar-expand">
                 <div className="navbar-header">
-                    <NavLink to="/about">
+                    <NavLink to="/">
                         <svg alt="logo" id="logo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 374.999991" version="1.2"
                         >
                             <defs
@@ -59,18 +59,14 @@ function Navbar() {
                                 </g>
                             </g>
                         </svg>
-                        {/* <img src={process.env.PUBLIC_URL + "/android-chrome-192x192.png"} alt="logo" id="logo"></img> */}
                         <h1 className="navbar-brand" id="name">anuel Leung Chen</h1>
                     </NavLink>
                 </div>
-                {/* <NavItems></NavItems> */}
                 <ul className="navbar-nav ml-auto">
-
                     <NavLink
-                        exact
                         activeClassName="nav-link-active"
                         className="nav-link"
-                        to="/about"
+                        to="/"
                     >
                         About
                     </NavLink>
