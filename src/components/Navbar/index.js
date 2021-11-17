@@ -24,7 +24,7 @@ function Navbar() {
         <header>
             <nav className="navbar navbar-expand">
                 <div className="navbar-header">
-                    <NavLink to="/">
+                    <NavLink to="/about">
                         <svg alt="logo" id="logo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 374.999991" version="1.2"
                         >
                             <defs
@@ -66,7 +66,7 @@ function Navbar() {
                     <NavLink
                         activeClassName="nav-link-active"
                         className="nav-link"
-                        to="/"
+                        to="/about"
                     >
                         About
                     </NavLink>
