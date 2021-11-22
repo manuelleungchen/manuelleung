@@ -12,7 +12,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <div className="container">
+            <main className="container">
                 <Router>
                     <AnimatePresence exitBeforeEnter>
                         <Switch location={location} key={location.pathname}>
@@ -23,7 +23,8 @@ function App() {
                         </Switch>
                     </AnimatePresence>
                 </Router>
-            </div>
+            </main>
+            <Footer />
         </>
     );
 }

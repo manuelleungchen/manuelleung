@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import Form from "../../Form";
-import Footer from "../../Footer";
 import { motion } from "framer-motion";
 
 function Contact() {
@@ -14,12 +13,9 @@ function Contact() {
             transition={{ duration: 0.5 }}
         >
             <article id="contact">
-                <section id="contact-section">
-                    <h2>Contact Me</h2>
-                    <hr></hr>
-                    <Form />
-                    <Footer />
-                </section>
+                <h1>Contact Me</h1>
+                <hr></hr>
+                <Form />
             </article>
         </motion.div>
     )

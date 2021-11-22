@@ -1,5 +1,8 @@
-#contact-section h2 {
-    margin: 30px;
+#contact {
+    padding: 0px;
+}
+
+#contact h1 {
     text-align: center;
     font-family: 'Texturina', serif;
     color: #ffbd59;

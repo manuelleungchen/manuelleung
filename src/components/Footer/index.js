@@ -3,23 +3,21 @@ import "./style.css";
 
 function Footer() {
     return (
-        <footer>
-            <div id="contact-social-icons">
-                <div>
-                    <a href="https://www.linkedin.com/in/manuel-leung-chen/" rel="noreferrer" target="_blank">
-                        <i className="fab fa-linkedin"></i></a>
+        <footer className="container">
+            <div className="d-flex flex-wrap justify-content-between align-items-center py-3 px-2 my-3 mx-3 border-top">
+                <div className="d-flex align-items-center">
+                    <span className="text-muted">&copy; 2021 Copyright</span>
                 </div>
-                <div>
-                    <a href="https://github.com/manuelleungchen" rel="noreferrer" target="_blank">
-                        <i className="fab fa-github"></i></a>
-                </div>
-                <div>
-                    <a href="https://www.instagram.com/mleungc/" rel="noreferrer" target="_blank">
-                        <i className="fab fa-instagram"></i></a>
-                </div>
+                <ul className="nav justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/manuel-leung-chen/" rel="noreferrer" target="_blank">
+                        <i className="fab fa-linkedin"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="https://github.com/manuelleungchen" rel="noreferrer" target="_blank">
+                        <i className="fab fa-github"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/mleungc/" rel="noreferrer" target="_blank">
+                        <i className="fab fa-instagram"></i></a></li>
+                </ul>
             </div>
-            <p>&copy; 2021 Copyright</p>
-        </footer>
+         </footer>
     )
 }
 

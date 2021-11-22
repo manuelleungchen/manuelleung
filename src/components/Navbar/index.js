@@ -82,7 +82,7 @@ function Navbar() {
                         className="nav-link"
                         to="/contact"
                     >
-                        Contacts
+                        Contact
                     </NavLink>
                 </ul>
             </nav>

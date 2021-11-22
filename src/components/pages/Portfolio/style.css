@@ -2,14 +2,14 @@
 
 #portfolio {
     padding: 0px;
-    padding-top: 100px;
     text-align: center;
     background-color: #17252A;
     color: #FEFFFF;
 }
 
-#portfolio-header {
-    font-family: 'Big Shoulders Inline Text';
-    color: #a3f5f2;
+#portfolio h1 {
+    text-align: center;
+    font-family: 'Texturina', serif;
+    color: #ffbd59;
 }
 

@@ -2,7 +2,8 @@ import React from "react";
 import "./style.css";
 import Resume from "../../assets/pdf/Resume.pdf"
 import { motion } from "framer-motion";
-import NextButton from "../../nextButton";
+import NextButton from "../../NextButton";
+
 
 function About() {
 
@@ -48,7 +49,7 @@ function About() {
                 </section>
                 <section className="col-12 col-sm-12 col-md-6 col-lg-6">
                     <div id="about-me">
-                        <h3>ABOUT ME</h3>
+                        <h1>About Me</h1>
                         <hr></hr>
                         <p>
                             I'm Manuel, a Full-stack Developer originally from the Dominican Republic and currently based in Toronto, Canada.  After realizing how computer devices positively changed our lifestyles, I fell in love with technology. That led to an Advanced Diploma in Computer Engineering Technology, and I've now worked in IT for three years.
@@ -56,8 +57,8 @@ function About() {
                         <p>
                             With almost five years in the customer service industry and encountering multiple user errors along the way, I'm now putting together all my experiences and offering thoughtfully designed user-friendly applications and all with a positive attitude.
                         </p>
-                        <p>Phone: (647)-704-2246</p>
-                        <p>Email: manuel.leungchen@gmail.com</p>
+                        <address>Phone: (647)-704-2246</address>
+                        <address>Email: manuel.leungchen@gmail.com</address>
                     </div>
                     <div className="row" id="social">
                         <div className="col-3">
@@ -81,7 +82,7 @@ function About() {
                 <section className="col-12">
                     <hr></hr>
                     <div id="skills">
-                        <h3>SKILLS</h3>
+                        <h2>Skills</h2>
                         <div className="row" id="skill-icons">
                             <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-html5"></i><p>HTML 5</p></div>
                             <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-css3-alt"></i><p>CSS</p></div>
@@ -98,10 +99,8 @@ function About() {
                         </div>
                     </div>
                 </section>
-                <section className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <NextButton nextPage="portfolio" ></NextButton>
-                </section>
             </div>
+            <NextButton nextPage="portfolio" ></NextButton>
         </article>
     </motion.div>
     )

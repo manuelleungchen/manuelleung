@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Project from "../../Project";
 import data from "../../assets/json/projects.json";
-import NextButton from "../../nextButton";
+import NextButton from "../../NextButton";
 import { motion } from "framer-motion";
 
 function Portfolio() {
@@ -27,16 +27,10 @@ function Portfolio() {
             transition={{ duration: 0.5 }}
         >
             <article id="portfolio">
-                <div className="row">
-                    <section className="col-12">
-                        <h2 id="portfolio-header">PROJECTS</h2>
-                        <hr></hr>
-                    </section>
-                </div>
+                <h1>Projects</h1>
+                <hr></hr>
                 {projects}
-                <section className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <NextButton nextPage="contact" ></NextButton>
-                </section>
+                <NextButton nextPage="contact" ></NextButton>
             </article>
         </motion.div>
     )
