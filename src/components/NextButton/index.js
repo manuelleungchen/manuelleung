@@ -18,7 +18,7 @@ function nextButton({ nextPage }) {
     let nextPath = `#/${nextPage}`;
     return (
         <section id="nextButtonSection">
-            <motion.a href={nextPath} className="next-button"
+            <motion.a href={nextPath} className="btn btn-secondary"
                 variants={nextButtonVariants}
                 whileHover="hover">
                 Go to {nextPage}

@@ -3,23 +3,6 @@
     display: none;
 }
 
-.next-button {
-    background-color: #2B7A78;
-    border: none;
-    border-radius: 25px;
-    color: white;
-    width: 45%;
-    padding: 10px;
-    margin: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-
-.next-button:hover {
-    background-color: #88BDBC;
-    color: black;
-}
-
 /* Only show Next Button on Mobile Devices */
 @media screen and (max-width: 480px) {
     #nextButtonSection {
