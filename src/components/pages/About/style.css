@@ -72,8 +72,25 @@
 
 #social i, #skill-icons i {
     margin-top: 5px;
-    padding: 2px;
+    padding: 15px;
+    border-radius: 5px;
     font-size: 35px;
+    color: #FFFFFF;
+}
+
+#social .col-3 i:hover {
+    background-color: #343434;
+}
+
+#resume-link-div{
+    padding: 10px;
+}
+
+#resume-link-div i {
+    margin-top: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
     color: #FFFFFF;
 }
 

@@ -62,20 +62,24 @@ function About() {
                     </div>
                     <div className="row" id="social">
                         <div className="col-3">
-                            <a href="https://www.linkedin.com/in/manuel-leung-chen/" rel="noreferrer" target="_blank">
-                                <i className="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/manuel-leung-chen/" rel="noopener noreferrer" target="_blank" title="Connect With Me on Linkedin">
+                                <i className="fab fa-linkedin" /></a>
                         </div>
                         <div className="col-3">
-                            <a href="https://github.com/manuelleungchen" rel="noreferrer" target="_blank">
-                                <i className="fab fa-github"></i></a>
+                            <a href="https://github.com/manuelleungchen" rel="noopener noreferrer" target="_blank" title="View My Repositories">
+                                <i className="fab fa-github" /></a>
                         </div>
                         <div className="col-3">
-                            <a href="https://www.instagram.com/mleungc/" rel="noreferrer" target="_blank">
-                                <i className="fab fa-instagram"></i></a>
+                            <a href="https://discord.com/users/834973242548027403" rel="noopener noreferrer" target="_blank" title="Message Me on Discord">
+                                <i className="fab fa-discord" /></a>
                         </div>
                         <div className="col-3">
-                            <a href={Resume} rel="noreferrer" target="_blank">
-                                <i className="far fa-file-pdf"></i></a>
+                            <a href="https://www.instagram.com/mleungc/" rel="noopener noreferrer" target="_blank" title="Follow Me on Instagram">
+                                <i className="fab fa-instagram" /></a>
+                        </div>
+                        <div className="col-12" id="resume-link-div">
+                            <a className="btn btn-secondary" href={Resume} rel="noopener noreferrer" target="_blank" title="View Resume">
+                                <i className="far fa-file-pdf" />Resume</a>
                         </div>
                     </div>
                 </section>
@@ -84,18 +88,18 @@ function About() {
                     <div id="skills">
                         <h2>Skills</h2>
                         <div className="row" id="skill-icons">
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-html5"></i><p>HTML 5</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-css3-alt"></i><p>CSS</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-js-square"></i><p>JavaScript</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-node-js"></i><p>Node.js</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-npm"></i><p>NPM</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-react"></i><p>React.js</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-universal-access"></i><p>Accessability</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-github"></i><p>Github</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-mobile-alt"></i><p>Responsive</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-database"></i><p>MongoDB</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-server"></i><p>Heroku</p></div>
-                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-database"></i><p>MySQL</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-html5" /><p>HTML 5</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-css3-alt" /><p>CSS</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-js-square" /><p>JavaScript</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-node-js" /><p>Node.js</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-npm" /><p>NPM</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-react" /><p>React.js</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-universal-access" /><p>Accessability</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fab fa-github" /><p>Github</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-mobile-alt" /><p>Responsive</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-database" /><p>MongoDB</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-server" /><p>Heroku</p></div>
+                            <div className="col-3 col-md-2 col-lg-2 col-xl-1"><i className="fas fa-database" /><p>MySQL</p></div>
                         </div>
                     </div>
                 </section>
