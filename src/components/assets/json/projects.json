@@ -1,12 +1,20 @@
-[
+[   {
+        "id": 10,
+        "title": "Reddit Analytics",
+        "image": "/images/reddit-analytics.png",
+        "highlight": "React/Render",
+        "description": "React application for searching and analyzing the top 100 posts in a subreddit. The app illustrates the ideal date and time of the week to create a post in a heatmap.",
+        "github": "https://github.com/manuelleungchen/reddit-analytics",
+        "url": "https://reddit-analytics.onrender.com"
+    },
     {
         "id": 9,
         "title": "Google Books Search",
         "image": "/images/google-books-search.png",
-        "highlight": "MongoDB/Express/Heroku",
+        "highlight": "MongoDB/Express/Render",
         "description": "Web Application that allows to search books using the Google Books API and saves books to review or purchase later.",
         "github": "https://github.com/manuelleungchen/Google-Books-Search",
-        "url": "https://safe-brushlands-83876.herokuapp.com/"
+        "url": "https://google-books-l2ka.onrender.com"
     },
     {
         "id": 8,
