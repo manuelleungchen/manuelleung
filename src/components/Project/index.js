@@ -14,7 +14,7 @@ const buttonVariants = {
     }
 }
 
-function Project({ id, title, image, highlight, description, github, url }) {
+function Project({ title, image, highlight, description, github, url }) {
 
     return (
         <div className="row project-info">
@@ -23,12 +23,13 @@ function Project({ id, title, image, highlight, description, github, url }) {
                 <h4 className="highlight">{highlight}</h4>
                 <p>{description}</p>
                 <div className="button-div">
-                    <motion.a href={url} className="link-button" rel="noreferrer" target="_blank"
-                        variants={buttonVariants}
-                        whileHover="hover"
-                    >
-                        Live Site
-                    </motion.a>
+                    {url !== "" &&
+                        <motion.a href={url} className="link-button" rel="noreferrer" target="_blank"
+                            variants={buttonVariants}
+                            whileHover="hover"
+                        >
+                            Live Site
+                        </motion.a>}
                     <motion.a href={github} className="link-button" rel="noreferrer" target="_blank"
                         variants={buttonVariants}
                         whileHover="hover"
@@ -38,7 +39,7 @@ function Project({ id, title, image, highlight, description, github, url }) {
                 </div>
             </section>
             <section className="col-sm-12 col-md-6 col-lg-6">
-                <img src={process.env.PUBLIC_URL + image} className="project-image" alt="Avatar"></img>
+                <img src={process.env.PUBLIC_URL + image} className="project-image" alt={`${title} mockup`}></img>
             </section>
         </div>
     )
