@@ -1,4 +1,13 @@
 [   {
+    "id": 11,
+    "title": "Repository Automation App",
+    "image": "/images/repository-automation.png",
+    "highlight": "React/Electron/Node/Bootstrap",
+    "description": "Desktop App that allows to run scripts on multiple repositories such as npm scripts and git commands.",
+    "github": "https://github.com/manuelleungchen/repository-automation",
+    "url": ""
+    },
+    {
         "id": 10,
         "title": "Reddit Analytics",
         "image": "/images/reddit-analytics.png",
@@ -14,7 +23,7 @@
         "highlight": "MongoDB/Express/Render",
         "description": "Web Application that allows to search books using the Google Books API and saves books to review or purchase later.",
         "github": "https://github.com/manuelleungchen/Google-Books-Search",
-        "url": "https://google-books-l2ka.onrender.com"
+        "url": "https://google-books-search.onrender.com"
     },
     {
         "id": 8,
@@ -23,7 +32,7 @@
         "highlight": "MongoDB/Express/Heroku",
         "description": "Workout Tracker Application that allows tracking of daily workouts and presents a dashboard with weekly progress charts.",
         "github": "https://github.com/manuelleungchen/Workout-Tracker",
-        "url": "https://desolate-headland-50731.herokuapp.com/?id=6026c6e4cdc8800015baee01"
+        "url": "https://workout-tracker-rhgn.onrender.com"
     },
     {
         "id": 7,
@@ -32,7 +41,7 @@
         "highlight": "MongoDB/Express/Heroku",
         "description": "Budget Tracker Application that allows tracking of a budget with/without a network connection. It illustrates financial progress in a time frame.",
         "github": "https://github.com/manuelleungchen/Budget-Tracker",
-        "url": "https://limitless-ridge-72652.herokuapp.com/"
+        "url": "https://budget-tracker-ai2h.onrender.com"
     },
     {
         "id": 6,
@@ -50,7 +59,7 @@
         "highlight": "Heroku/Node.js",
         "description": "Burger Logger Web Application that keeps track of Burgers.",
         "github": "https://github.com/manuelleungchen/Burger-Logger",
-        "url": "https://stark-falls-45223.herokuapp.com/"
+        "url": "https://burger-logger.onrender.com"
     },
     {
         "id": 4,
@@ -59,7 +68,7 @@
         "highlight": "Node.js/Handlebars/Materialize",
         "description": "Video-Sharing platform that combines content from Youtube and Twitch.",
         "github": "https://github.com/manuelleungchen/YouTwitch",
-        "url": "https://enigmatic-stream-39845.herokuapp.com/"
+        "url": "https://youtwitch.onrender.com"
     },
     {
         "id": 3,
