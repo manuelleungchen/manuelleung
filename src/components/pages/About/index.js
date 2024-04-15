@@ -52,10 +52,7 @@ function About() {
                         <h1>About Me</h1>
                         <hr></hr>
                         <p>
-                            I'm Manuel, a Full-stack Developer originally from the Dominican Republic and currently based in Toronto, Canada.  After realizing how computer devices positively changed our lifestyles, I fell in love with technology. That led to an Advanced Diploma in Computer Engineering Technology, and I've now worked in IT for three years.
-                        </p>
-                        <p>
-                            With almost five years in the customer service industry and encountering multiple user errors along the way, I'm now putting together all my experiences and offering thoughtfully designed user-friendly applications and all with a positive attitude.
+                            Motivated Full-stack Web Developer with over 2 years of experience using ReactJS to develop mobile-first applications. Effective at utilizing coding skills as well as time management, problem-solving and collaboration skills to accomplish accessible websites on time. Looking for more challenging opportunities to further develop my frontend and backend knowledge.
                         </p>
                         <address>Phone: (647)-704-2246</address>
                         <address>Email: manuel.leungchen@gmail.com</address>

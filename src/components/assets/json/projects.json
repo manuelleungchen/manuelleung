@@ -53,24 +53,6 @@
         "url": "https://manuelleungchen.github.io/Employee-Directory/"
     },
     {
-        "id": 5,
-        "title": "Burger Logger",
-        "image": "/images/burger-logger.png",
-        "highlight": "Heroku/Node.js",
-        "description": "Burger Logger Web Application that keeps track of Burgers.",
-        "github": "https://github.com/manuelleungchen/Burger-Logger",
-        "url": "https://burger-logger.onrender.com"
-    },
-    {
-        "id": 4,
-        "title": "YouTwitch",
-        "image": "/images/youtwitch.png",
-        "highlight": "Node.js/Handlebars/Materialize",
-        "description": "Video-Sharing platform that combines content from Youtube and Twitch.",
-        "github": "https://github.com/manuelleungchen/YouTwitch",
-        "url": "https://youtwitch.onrender.com"
-    },
-    {
         "id": 3,
         "title": "Password Generator",
         "image": "/images/password-generator.png",
