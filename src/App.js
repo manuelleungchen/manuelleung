@@ -1,8 +1,8 @@
 import './App.css';
-import { HashRouter as Router, Route, Switch, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
-import Contact from "./components/pages/Contact";
+// import Contact from "./components/pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { AnimatePresence } from 'framer-motion';
@@ -13,16 +13,14 @@ function App() {
         <>
             <Navbar />
             <main className="container">
-                <Router>
                     <AnimatePresence exitBeforeEnter>
-                        <Switch location={location} key={location.pathname}>
-                            <Route exact path="/" component={About} />
-                            <Route exact path="/about" component={About} />
-                            <Route exact path="/portfolio" component={Portfolio} />
-                            <Route exact path="/contact" component={Contact} />
-                        </Switch>
+                        <Routes location={location} key={location.pathname}>
+                            <Route path="/" element={<About />} />
+                            <Route path="/about" element={<About />} />
+                            <Route path="/portfolio" element={<Portfolio />} />
+                            {/* <Route path="/contact" element={<Contact />} /> */}
+                        </Routes>
                     </AnimatePresence>
-                </Router>
             </main>
             <Footer />
         </>

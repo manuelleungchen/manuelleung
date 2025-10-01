@@ -22,9 +22,9 @@ function Navbar() {
 
     return (
         <header>
-            <nav className="navbar navbar-expand">
+            <nav className="navbar-custom">
                 <div className="navbar-header">
-                    <NavLink to="/about">
+                    <NavLink to="/about" className="navbar-logo-link">
                         <svg alt="logo" id="logo" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 374.999991" version="1.2"
                         >
                             <defs
@@ -62,28 +62,25 @@ function Navbar() {
                         <h1 className="navbar-brand" id="name">anuel Leung Chen</h1>
                     </NavLink>
                 </div>
-                <ul className="navbar-nav ml-auto">
+                <ul className="navbar-nav-custom">
                     <NavLink
-                        activeClassName="nav-link-active"
-                        className="nav-link"
+                        className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link')}
                         to="/about"
                     >
                         About
                     </NavLink>
                     <NavLink
-                        activeClassName="nav-link-active"
-                        className="nav-link"
+                        className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link')}
                         to="/portfolio"
                     >
                         Portfolio
                     </NavLink>
-                    <NavLink
-                        activeClassName="nav-link-active"
-                        className="nav-link"
+                    {/* <NavLink
+                        className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link')}
                         to="/contact"
                     >
                         Contact
-                    </NavLink>
+                    </NavLink> */}
                 </ul>
             </nav>
         </header>

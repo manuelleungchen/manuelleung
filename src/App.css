@@ -4,6 +4,8 @@
 } */
 
 hr {
-    background-color: #ffbd59;
+    color: #ffbd59;
     width: 95%;
+    opacity: 1;
+    margin: 1rem 0.5rem;
 }

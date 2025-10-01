@@ -22,7 +22,8 @@ function About() {
                             animate={{ borderRadius: ["38% 68% 32% 62%", "58% 38% 72% 42%", "45% 35% 55% 65%"] }}
                             transition={{
                                 duration: 12,
-                                yoyo: Infinity,
+                                repeat: Infinity,
+                                repeatType: "reverse",
                                 ease: "easeInOut"
                             }}
                         >
@@ -31,7 +32,8 @@ function About() {
                                 animate={{ borderRadius: ["38% 68% 32% 62%", "55% 35% 75% 55%", "58% 38% 72% 42%"] }}
                                 transition={{
                                     duration: 10,
-                                    yoyo: Infinity,
+                                    repeat: Infinity,
+                                    repeatType: "reverse",
                                     ease: "easeInOut"
                                 }}
                             >
@@ -39,7 +41,8 @@ function About() {
                                     animate={{ borderRadius: ["35% 45% 50% 75%", "38% 68% 32% 62%", "58% 38% 72% 42%"] }}
                                     transition={{
                                         duration: 15,
-                                        yoyo: Infinity,
+                                        repeat: Infinity,
+                                        repeatType: "reverse",
                                         ease: "easeInOut"
                                     }}
                                 ></motion.img>
@@ -52,10 +55,18 @@ function About() {
                         <h1>About Me</h1>
                         <hr></hr>
                         <p>
-                            Motivated Full-stack Web Developer with over 2 years of experience using ReactJS to develop mobile-first applications. Effective at utilizing coding skills as well as time management, problem-solving and collaboration skills to accomplish accessible websites on time. Looking for more challenging opportunities to further develop my frontend and backend knowledge.
+                            Motivated Software Developer with over 3 years of experience in coding, specializing in creating efficient and accessible solutions. Skilled in time management, problem-solving, and collaboration to deliver projects on time. Passionate about learning new technologies and eager to tackle challenging opportunities to enhance my skills.
                         </p>
-                        <address>Phone: (647)-704-2246</address>
-                        <address>Email: manuel.leungchen@gmail.com</address>
+                        <address>
+                            <a href="tel:+16477042246" aria-label="Call Manuel Leung Chen">
+                                Phone: (647)-704-2246
+                            </a>
+                        </address>
+                        <address>
+                            <a href="mailto:manuel.leungchen@gmail.com" aria-label="Email Manuel Leung Chen">
+                                Email: manuel.leungchen@gmail.com
+                            </a>
+                        </address>
                     </div>
                     <div className="row" id="social">
                         <div className="col-3">

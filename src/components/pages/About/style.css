@@ -63,6 +63,16 @@
     font-family: 'Roboto';
 }
 
+#about-me a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#about-me a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
 #social, #skill-icons {
     padding: 15px;
     text-align: center;

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Project from "../../Project";
 import data from "../../assets/json/projects.json";
-import NextButton from "../../NextButton";
+// import NextButton from "../../NextButton";
 import { motion } from "framer-motion";
 
 function Portfolio() {
@@ -30,7 +30,7 @@ function Portfolio() {
                 <h1>Projects</h1>
                 <hr></hr>
                 {projects}
-                <NextButton nextPage="contact" ></NextButton>
+                {/* <NextButton nextPage="contact" ></NextButton> */}
             </article>
         </motion.div>
     )

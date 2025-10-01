@@ -3,3 +3,8 @@
 footer i {
     margin: 5px;
 }
+
+.footer-text {
+    color: #fff !important;
+    font-size: 1rem;
+}

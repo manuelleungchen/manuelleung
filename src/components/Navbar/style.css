@@ -5,10 +5,18 @@ header nav {
     font-family: 'Big Shoulders Inline Text', cursive;
 }
 
-/* #logo {
-    width: 50px;
-    color: white;
-} */
+.navbar-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0f181b;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
 
 #name {
     background-color: #0f181b;
@@ -16,6 +24,8 @@ header nav {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    display: inline-block;
+    margin: 0;
 }
 
 #logo {
@@ -27,12 +37,23 @@ header nav {
     stroke-linecap: round;
   }
 
+.navbar-nav-custom {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 2rem;
+    list-style: none;
+    padding-left: 0;
+}
+
 .nav-link {
     color: #FFFFFF;
 }
 
 .nav-link-active {
+    color: #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
+    text-decoration: none;
     font-size: 20px;
 }
 
